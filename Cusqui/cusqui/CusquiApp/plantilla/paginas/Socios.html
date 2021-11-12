@@ -1,0 +1,34 @@
+{% extends 'estructura/base.html' %}
+
+{% block title %}
+
+Socios
+
+{% endblock %}
+
+{% block content %}
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/singIn">Iniciar sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/reporteXaño">Reportes por año</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/AccountState">Estado de cuenta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cambiarDatosPersonales">Cambiar datos personales</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+</header>
+
+{% block contenido %} {% endblock %}
+
+{% endblock %}

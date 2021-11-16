@@ -55,7 +55,7 @@ ROOT_URLCONF = 'cusqui.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Cusqui/cusqui/CusquiApp/plantilla'],
+        'DIRS': ['C:/Cusqui/cusqui/CusquiApp/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
